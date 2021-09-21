@@ -26,6 +26,7 @@ export const Container = styled.div`
       font-weight: 500;
       line-height: 3rem;
     }
+
     &.highligth-background {
       background: var(--green);
       color: #FFF;
