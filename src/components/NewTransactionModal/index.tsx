@@ -22,6 +22,7 @@ export function NewTransactionModal( {isOpen, onRequestClose}: NewTransactionMod
 
   async function handleCreateNewTransaction(event: FormEvent) {
     event.preventDefault();
+
     try {
       await createTransaction({
         title,
